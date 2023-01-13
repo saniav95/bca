@@ -1,0 +1,26 @@
+<html>
+<head>
+<script>
+
+
+function change1() {
+  document.getElementById("id1").src = "img1.jpg"
+  document.getElementById("id1").alt="error"
+}
+
+function change2() {
+  document.getElementById("id1").src = "img2.jpg"
+  document.getElementById("id1").alt="error"
+}
+
+</script>
+</head>
+<body bgcolor="#fff2e6">
+
+<h1>  GALLERY </h1>
+<img onmouseover="change1()" onmouseout="change2()" src="img2.jpg" alt="error occured" width="800" height="500" id="id1">
+
+
+
+</body>
+</html>
